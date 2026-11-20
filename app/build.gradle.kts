@@ -10,7 +10,7 @@ android {
     namespace = "com.macedonga.visor"
 
     defaultConfig {
-        applicationId = "com.macedonga.visor"
+        applicationId = "com.kennedysmartins.visor2"
         // A release build takes both from its tag (.github/workflows/release.yml).
         versionCode = providers.environmentVariable("VISOR_VERSION_CODE").orNull?.toInt() ?: 1
         versionName = providers.environmentVariable("VISOR_VERSION_NAME").orNull ?: "0.1"
